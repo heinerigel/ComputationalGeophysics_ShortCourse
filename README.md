@@ -6,11 +6,11 @@ You find here the course material and access to executible Jupyter Notebooks for
 
 There are several options to run the Jupyter notebooks during the course with Cloud resources. It is wise to use all access methods as resources are limited. 
 
-I. Use the repository of a previous workshop by clicking on the following icon:
+I. Use the repository with mybinder directly clicking on the following icon:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/heinerigel/ComputationalGeophysics_ShortCourse/HEAD?urlpath=/tree/)
 
-II. Use the online Jupyter notebook library seismo-live directly:
+II. Use the online Jupyter notebook library seismo-live:
 
 [Seismo-live](https://seismo-live.github.io)
 
@@ -21,7 +21,6 @@ III. Sign up to the COURSERA course linked below (free!) and use the Jupyter Not
 IV. Install an anaconda environment on your computer and run the notebooks locally (preferred if you want to work with them later, modify them etc.)
 
 Download the entire repository. 
-
 
 Instructions for Windows (10, 11 should be similar). Any other operating system (MAC-OS, Linux) should work very similar.
 

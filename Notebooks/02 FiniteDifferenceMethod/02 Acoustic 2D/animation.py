@@ -172,7 +172,7 @@ def create_animation_homogeneous(local_dict):
         it = n * idisp
         
         up41.set_ydata(seis_results[n])
-        up42.set_data(time[it], seis_results[n][it])
+        up42.set_data([time[it]], [seis_results[n][it]])
         
         ax3.set_title('Time Step (nt) = %d' % it)
         ax3.imshow(p_results[n], vmin=-lim, vmax=+lim, interpolation="nearest", cmap=plt.cm.RdBu)

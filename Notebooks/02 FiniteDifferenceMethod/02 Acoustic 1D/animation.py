@@ -41,7 +41,7 @@ def create_animation_gaussian_analytical(local_dict):
 
         up1.set_ydata(p)
         up21.set_ydata(seis)
-        up22.set_data(time[it], seis[it])
+        up22.set_data([time[it]], [seis[it]])
         
         animation_progress_handler(n)
 
